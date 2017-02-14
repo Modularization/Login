@@ -7,20 +7,13 @@
 //
 
 #import "LoginViewController.h"
-#import "LoginView.h"
 
 
 @interface LoginViewController ()
 @property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) LoginView *loginView;
 @end
 
 @implementation LoginViewController
-
-- (void)loadView
-{
-    self.view = [UIView new];
-}
 
 - (void)viewDidLoad
 {
@@ -31,7 +24,6 @@
     self.navigationController.navigationBar.hidden = YES;
     
     [self.view addSubview:self.scrollView];
-    [self.scrollView addSubview:self.loginView];
 }
 
 
@@ -47,12 +39,6 @@
 }
 
 
-- (LoginView *)loginView
-{
-    if (_loginView == nil) {
-        _loginView = [[LoginView alloc] initWithFrame:_scrollView.bounds];
-    }
-    return _loginView;
-}
+
 
 @end
