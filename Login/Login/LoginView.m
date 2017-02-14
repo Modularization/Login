@@ -7,7 +7,7 @@
 //
 
 #import "LoginView.h"
-#import "Masonry/Masonry.h"
+#import "Masonry.h"
 #import <Register_Category/CTMediator+Register.h>
 
 
