@@ -15,5 +15,4 @@ pod 'MJRefresh'
 pod 'YYModel'
 pod 'Masonry'
 pod 'ReactiveViewModel'
-pod “Register_Category", :path => “../Register_Category"
 end

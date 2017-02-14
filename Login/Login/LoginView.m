@@ -8,7 +8,6 @@
 
 #import "LoginView.h"
 #import "Masonry.h"
-#import <Register_Category/CTMediator+Register.h>
 
 
 @interface LoginView ()<UITextFieldDelegate>
