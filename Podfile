@@ -13,6 +13,5 @@ pod 'AFNetworking', '~> 2.0'
 pod 'AFNetworkActivityLogger', '~> 2.0.3'
 pod 'MJRefresh'
 pod 'YYModel'
-pod 'Masonry'
 pod 'ReactiveViewModel'
 end
