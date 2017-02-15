@@ -30,6 +30,7 @@
 #pragma mark - setter && getter
 - (UIScrollView *)scrollView
 {
+    
     if (_scrollView == nil) {
         _scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
         _scrollView.showsVerticalScrollIndicator = NO;
