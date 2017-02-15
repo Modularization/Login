@@ -7,10 +7,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'Login' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-pod 'MBProgressHUD', '~> 0.9.2'
-pod 'SDWebImage', '~> 3.7'
-pod 'AFNetworking', '~> 2.0'
-pod 'AFNetworkActivityLogger', '~> 2.0.3'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'AFNetworking'
 pod 'MJRefresh'
 pod 'YYModel'
 pod 'ReactiveViewModel'
